@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd"> 
+<properties>
+    <entry key="http.port">8080</entry>
+
+    <!-- MongoDB values -->
+    <entry key="mongodb.uri">mongodb://localhost:27017</entry>
+    <entry key="mongodb.database">auchan</entry>
+    <entry key="mongodb.user"></entry>
+    <entry key="mongodb.password"></entry>
+
+    <!-- MongoDB values -->
+    <entry key="couchbase.uri">192.168.99.100</entry>
+    <entry key="couchbase.user">Administrator</entry>
+    <entry key="couchbase.password">password</entry>
+</properties>
