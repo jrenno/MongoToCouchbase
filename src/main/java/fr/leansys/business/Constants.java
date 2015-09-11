@@ -22,7 +22,7 @@ public interface Constants {
 
     // Tunning
     int COUCHBASE_CONNECT_TIMEOUT = 30000;          // seconds
-    int COUCHBASE_CLUSTER_MEMORY_QUOTA = 2 * 1024;  // MB
+    int COUCHBASE_CLUSTER_MEMORY_QUOTA = 1600;      // MB
     int COUCHBASE_KEEPALIVE_INTERVAL = 3600 * 1000; // milliseconds
     int WORKER_INSTANCES = 5;                       // numbers of parallel workers used for writing data
 }

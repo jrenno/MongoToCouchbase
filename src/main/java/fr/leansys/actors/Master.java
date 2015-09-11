@@ -44,7 +44,7 @@ public class Master extends UntypedActor {
             // Query All
             Block<Document> processDocumentBlock = document -> {
                 actorContext.getRead().incrementAndGet();
-                // Dispath write process
+                // Dispatch write process
                 workerRouter.tell(new Work(document), getSelf());
             };
 
